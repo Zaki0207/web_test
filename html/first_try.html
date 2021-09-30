@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta charset="UTF-8">
+<title>First_try</title>
+    <link rel="stylesheet" href="/css/first_try.css" type="text/css">
+<style>
+    #test1
+    {
+        color:red;
+        text-align: center;
+    }
+    .center
+    {
+        color:yellowgreen;
+    }
+    #div_0 {
+        background-color: lightgrey;
+        width: 300px;
+        border: 25px solid green;
+        padding: 25px;
+        margin: 25px;
+    }
+</style>
 </head>
 <body>
-
+<h1>标题</h1>
+<p id="test1">段落内容1</p>
+<p class = center>段落内容2</p>
+<p id="test2">段落内容3</p>
+<p class = center2>段落内容4</p>
+<hr>
+<h2>标题2</h2>
+<a href="https://www.baidu.com">搜索</a>
+<hr>
+<br><p style="text-align: center;"><img src="/img/dog.jpg" width="258"  height="180" alt="cute dog"></p>
+<div align="center"><button type="button" >click me</button></div>
+<div style="text-align: center;"><button type="button" >click me</button></div>
+<hr><div>
+    <p style="text-align: center;"><img src="/img/box-model.gif" alt="box-model"></p>
+    <p style="text-align: center">不同部分的说明：</p>
+    <div style="text-align: center;">
+    <p><ul><li><b>Margin(外边距)</b>:清除边框外的区域，外边距是透明的。</li></ul></p></div>
+    <div id="div_0">这里是盒子内的实际内容。有 25px 内间距，25px 外间距、25px 绿色边框。</div>
+</div>
 </body>
 </html>
